@@ -26,6 +26,7 @@ cs_data_structure/
 │   │   ├── heap_priority_queue.py   # Emergency queue simulation
 │   │   └── bplus_tree.py        # B+ tree implementation
 │   └── c++/
+│       ├── algorithms.cpp       # Sorting, searching, graph, DP algorithms
 │       ├── hash_table.cpp       # C++ hash table
 │       ├── heap_priority_queue.cpp  # C++ priority queue
 │       └── bplus_tree.cpp       # C++ B+ tree
@@ -101,6 +102,21 @@ python src/python/bplus_tree.py
 **Run C++ version**:
 ```bash
 g++ -std=c++17 src/c++/bplus_tree.cpp -o bplus_tree && ./bplus_tree
+```
+
+### 4. Algorithm Collection (C++)
+
+**Purpose**: Demonstrate common algorithm families in one executable.
+
+**Includes**:
+- Sorting: Bubble, Insertion, Merge, Quick
+- Searching: Binary Search
+- Graph: BFS, DFS, Dijkstra
+- Dynamic Programming: 0/1 Knapsack, LCS
+
+**Run C++ version**:
+```bash
+g++ -std=c++17 src/c++/algorithms.cpp -o algorithms && ./algorithms
 ```
 
 ---
